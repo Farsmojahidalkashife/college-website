@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أنشئ حساباً جديداً في موقع كلية العلوم الرياضية والحاسوب.">
+  <title>إنشاء حساب — كلية العلوم الرياضية والحاسوب</title>
+</head>
+<body>
+
+  <header>
+    <div>
+      <img src="../assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" width="80" height="80">
+      <h1>كلية العلوم الرياضية والحاسوب</h1>
+      <p>جامعة الجزيرة — السودان</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>إنشاء حساب جديد</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>المعلومات الشخصية</legend>
+          <div>
+            <label for="name">الاسم الكامل</label>
+            <input type="text" id="name" name="name" required autocomplete="name" autofocus>
+          </div>
+          <div>
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>بيانات الدخول</legend>
+          <div>
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" name="password" required autocomplete="new-password">
+          </div>
+          <div>
+            <label for="confirm-password">تأكيد كلمة المرور</label>
+            <input type="password" id="confirm-password" name="confirm-password" required autocomplete="new-password">
+          </div>
+        </fieldset>
+
+        <div>
+          <label>
+            <input type="checkbox" name="terms" required>
+            أوافق على <a href="../terms.html">الشروط والأحكام</a>
+          </label>
+        </div>
+        <div>
+          <button type="submit">إنشاء حساب</button>
+        </div>
+      </form>
+      <p>لديك حساب؟ <a href="login.html">سجّل دخولك</a></p>
+    </section>
+    <nav aria-label="العودة">
+      <p><a href="../index.html">← العودة للرئيسية</a></p>
+    </nav>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy 2026 كلية العلوم الرياضية والحاسوب — جامعة الجزيرة</p>
+  </footer>
+
+</body>
+</html>
