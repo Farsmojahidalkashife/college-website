@@ -1,0 +1,27 @@
+:root {
+  --primary: #2E5A94;
+  --dark: #1B3A6B;
+  --gold: #D4A94B;
+  --bg: #F8FAFC;
+  --text: #1E293B;
+  --muted: #475569;
+  --border: #E2E8F0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 { font-family: 'Cairo', sans-serif; color: var(--dark); margin-bottom: 15px; }
+a { text-decoration: none; color: var(--primary); transition: color 0.3s; }
+a:hover { color: var(--gold); }
+ul{list-style:none;}
+img { max-width: 100%; display: block; }
+
+@font-face { font-family: 'Cairo'; src: url('../fonts/Cairo-Bold.woff2') format('woff2'); font-weight: bold; }
+@font-face { font-family: 'Tajawal'; src: url('../fonts/Tajawal-Regular.woff2') format('woff2'); font-weight: normal; }

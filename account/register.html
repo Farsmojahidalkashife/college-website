@@ -5,66 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="أنشئ حساباً جديداً في موقع كلية العلوم الرياضية والحاسوب.">
   <title>إنشاء حساب — كلية العلوم الرياضية والحاسوب</title>
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
 </head>
 <body>
 
-  <header>
-    <div>
-      <img src="../assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" width="80" height="80">
-      <h1>كلية العلوم الرياضية والحاسوب</h1>
-      <p>جامعة الجزيرة — السودان</p>
+  <header class="header">
+    <div class="container">
+      <div class="header-brand" style="justify-content: center; text-align: center; margin-bottom: 0;">
+        <img src="../assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" class="header-logo">
+        <div>
+          <h1 class="header-title">كلية العلوم الرياضية والحاسوب</h1>
+          <p class="header-subtitle">جامعة الجزيرة — السودان</p>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section>
-      <h2>إنشاء حساب جديد</h2>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>المعلومات الشخصية</legend>
-          <div>
-            <label for="name">الاسم الكامل</label>
-            <input type="text" id="name" name="name" required autocomplete="name" autofocus>
+  <main class="auth-main">
+    <div class="auth-card">
+      <h2 class="auth-title">إنشاء حساب جديد</h2>
+      <p class="auth-subtitle">انضم إلينا للتواصل ومتابعة الاستفسارات</p>
+
+      <form action="#" method="post" class="auth-form">
+        <fieldset class="fieldset">
+          <legend class="legend">المعلومات الشخصية</legend>
+          <div class="form-group">
+            <label for="name" class="form-label">الاسم الكامل</label>
+            <input type="text" id="name" name="name" class="form-input" required>
           </div>
-          <div>
-            <label for="email">البريد الإلكتروني</label>
-            <input type="email" id="email" name="email" required autocomplete="email">
+          <div class="form-group">
+            <label for="email" class="form-label">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" class="form-input" required>
           </div>
         </fieldset>
-
-        <fieldset>
-          <legend>بيانات الدخول</legend>
-          <div>
-            <label for="password">كلمة المرور</label>
-            <input type="password" id="password" name="password" required autocomplete="new-password">
+        <fieldset class="fieldset">
+          <legend class="legend">بيانات الدخول</legend>
+          <div class="form-group">
+            <label for="password" class="form-label">كلمة المرور</label>
+            <input type="password" id="password" name="password" class="form-input" required>
           </div>
-          <div>
-            <label for="confirm-password">تأكيد كلمة المرور</label>
-            <input type="password" id="confirm-password" name="confirm-password" required autocomplete="new-password">
+          <div class="form-group">
+            <label for="confirm-password" class="form-label">تأكيد كلمة المرور</label>
+            <input type="password" id="confirm-password" name="confirm-password" class="form-input" required>
           </div>
         </fieldset>
-
-        <div>
-          <label>
+        <div class="form-group">
+          <label class="form-checkbox">
             <input type="checkbox" name="terms" required>
-            أوافق على <a href="../terms.html">الشروط والأحكام</a>
+            أوافق على <a href="../terms.html" target="_blank">الشروط والأحكام</a>
           </label>
         </div>
-        <div>
-          <button type="submit">إنشاء حساب</button>
-        </div>
+        <button type="submit" class="btn btn--primary btn--block">إنشاء حساب</button>
       </form>
-      <p>لديك حساب؟ <a href="login.html">سجّل دخولك</a></p>
-    </section>
-    <nav aria-label="العودة">
-      <p><a href="../index.html">← العودة للرئيسية</a></p>
-    </nav>
-  </main>
 
-  <footer>
-    <hr>
-    <p>جميع الحقوق محفوظة &copy; 2026 لكلية العلوم الرياضية والحاسوب — جامعة الجزيرة.</p>
-  </footer>
+      <div class="auth-footer">
+        <p>لديك حساب؟ <a href="login.html">سجّل دخولك</a></p>
+        <p><a href="../index.html" class="back-link">← العودة للرئيسية</a></p>
+        <p>© 2026 كلية العلوم الرياضية والحاسوب — جامعة الجزيرة</p>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>

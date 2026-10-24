@@ -5,50 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="صفحة تسجيل الدخول إلى حسابك في موقع كلية العلوم الرياضية والحاسوب.">
   <title>تسجيل الدخول — كلية العلوم الرياضية والحاسوب</title>
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
 </head>
 <body>
 
-  <header>
-    <div>
-      <img src="../assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" width="80" height="80">
-      <h1>كلية العلوم الرياضية والحاسوب</h1>
-      <p>جامعة الجزيرة — السودان</p>
+  <header class="header">
+    <div class="container">
+      <div class="header-brand" style="justify-content: center; text-align: center; margin-bottom: 0;">
+        <img src="../assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" class="header-logo">
+        <div>
+          <h1 class="header-title">كلية العلوم الرياضية والحاسوب</h1>
+          <p class="header-subtitle">جامعة الجزيرة — السودان</p>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section>
-      <h2>تسجيل الدخول</h2>
-      <form action="#" method="post">
-        <div>
-          <label for="email">البريد الإلكتروني</label>
-          <input type="email" id="email" name="email" required autocomplete="email" autofocus>
+  <main class="auth-main">
+    <div class="auth-card">
+      <h2 class="auth-title">تسجيل الدخول</h2>
+      <p class="auth-subtitle">سجل دخولك لتتمكن من إرسال الاستفسارات ومتابعة الردود.</p>
+
+      <form action="#" method="post" class="auth-form">
+        <div class="form-group">
+          <label for="email" class="form-label">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" class="form-input" required>
         </div>
-        <div>
-          <label for="password">كلمة المرور</label>
-          <input type="password" id="password" name="password" required autocomplete="current-password">
+        <div class="form-group">
+          <label for="password" class="form-label">كلمة المرور</label>
+          <input type="password" id="password" name="password" class="form-input" required>
         </div>
-        <div>
-          <label>
+        <div class="form-group">
+          <label class="form-checkbox">
             <input type="checkbox" name="remember">
             تذكرني
           </label>
         </div>
-        <div>
-          <button type="submit">دخول</button>
-        </div>
+        <button type="submit" class="btn btn--primary btn--block">دخول</button>
       </form>
-      <p>ليس لديك حساب؟ <a href="register.html">أنشئ حساباً</a></p>
-    </section>
-    <nav aria-label="العودة">
-      <p><a href="../index.html">← العودة للرئيسية</a></p>
-    </nav>
-  </main>
 
-  <footer>
-    <hr>
-    <p>جميع الحقوق محفوظة &copy; 2026 لكلية العلوم الرياضية والحاسوب — جامعة الجزيرة.</p>
-  </footer>
+      <div class="auth-footer">
+        <p>ليس لديك حساب؟ <a href="register.html">أنشئ حساباً</a></p>
+        <p><a href="../index.html" class="back-link">← العودة للرئيسية</a></p>
+        <p>© 2026 كلية العلوم الرياضية والحاسوب — جامعة الجزيرة</p>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>

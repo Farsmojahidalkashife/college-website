@@ -5,158 +5,157 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="الموقع الرسمي لكلية العلوم الرياضية والحاسوب بجامعة الجزيرة — تعرّف على التخصصات والرؤية والرسالة والأهداف.">
   <title>الرئيسية — كلية العلوم الرياضية والحاسوب</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
 </head>
 <body>
 
-  <header>
-    <div>
-      <img src="assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" width="80" height="80">
-      <h1>كلية العلوم الرياضية والحاسوب</h1>
-      <p>جامعة الجزيرة — السودان</p>
-    </div>
+  <header class="header">
+    <div class="container">
+      <div class="header-brand">
+        <img src="assets/images/logo.png" alt="شعار كلية العلوم الرياضية والحاسوب" class="header-logo">
+        <div>
+          <h1 class="header-title">كلية العلوم الرياضية والحاسوب</h1>
+          <p class="header-subtitle">جامعة الجزيرة — السودان</p>
+        </div>
+      </div>
 
-    <nav aria-label="التنقل الرئيسي">
-      <ul>
-        <li><a href="index.html">الرئيسية</a></li>
-        <li><a href="about.html">عن الكلية</a></li>
-        <li>
-          <a href="#majors">التخصصات</a>
-          <ul>
-            <li><a href="majors/cs-math.html">علوم الحاسوب والرياضيات</a></li>
-            <li><a href="majors/cs-stat.html">علوم الحاسوب والإحصاء</a></li>
-            <li><a href="majors/cs.html">علوم الحاسوب</a></li>
-            <li><a href="majors/it.html">تقنية المعلومات</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">التواصل</a></li>
-        <li><a href="account/login.html">دخول</a></li>
-        <li><a href="account/register.html">تسجيل</a></li>
-      </ul>
-    </nav>
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">الرئيسية</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">عن الكلية</a></li>
+          <li class="nav-item">
+            <a href="#majors" class="nav-link">التخصصات</a>
+            <ul class="nav-sublist">
+              <li class="nav-item"><a href="majors/cs-math.html" class="nav-link">علوم الحاسوب والرياضيات</a></li>
+              <li class="nav-item"><a href="majors/cs-stat.html" class="nav-link">علوم الحاسوب والإحصاء</a></li>
+              <li class="nav-item"><a href="majors/cs.html" class="nav-link">علوم الحاسوب</a></li>
+              <li class="nav-item"><a href="majors/it.html" class="nav-link">تقنية المعلومات</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">التواصل</a></li>
+          <li class="nav-item"><a href="account/login.html" class="nav-link">دخول</a></li>
+          <li class="nav-item"><a href="account/register.html" class="nav-link">تسجيل</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="main">
+    <div class="container">
 
-    <section>
-      <h2>كلية العلوم الرياضية والحاسوب</h2>
-      <p>تأصيل علمي وتأهيل تقني لمهن المستقبل</p>
-      <a href="#majors">تعرّف على التخصصات</a>
-    </section>
+      <section class="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">كلية العلوم الرياضية والحاسوب</h2>
+          <p class="hero-subtitle">تأصيل علمي وتأهيل تقني لمهن المستقبل</p>
+          <div class="hero-actions">
+            <a href="#majors" class="btn btn--gold btn--lg">تعرّف على التخصصات</a>
+          </div>
+          <a href="#news" class="scroll-arrow">&#8595;</a>
+        </div>
+      </section>
 
-    <section>
-      <h2>نبذة مختصرة</h2>
-      <p>
-        تمثل كلية العلوم الرياضية والحاسوب بجامعة الجزيرة أحد المكونات الأكاديمية
-        التي تجمع بين علوم الرياضيات والإحصاء والحوسبة، وتعمل على إعداد كوادر
-        مؤهلة في مجالات علمية وتقنية تتزايد أهميتها في ظل التطورات المتسارعة في
-        الذكاء الاصطناعي والتحول الرقمي وتحليل البيانات.
-      </p>
-      <p><a href="about.html">اقرأ المزيد عن الكلية ←</a></p>
-    </section>
+      <section class="section">
+        <h2 class="section-title">نبذة مختصرة</h2>
+        <p>تمثل كلية العلوم الرياضية والحاسوب بجامعة الجزيرة أحد المكونات الأكاديمية التي تجمع بين علوم الرياضيات والإحصاء والحوسبة. في عصر الذكاء الاصطناعي والتحول الرقمي، أصبحت المهارات الحاسوبية والرياضية من أكثر المهارات طلباً في سوق العمل.</p>
+        <p>تأسست الكلية عام 1993م امتداداً لقسم الرياضيات والإحصاء والحاسوب الذي أُنشئ عام 1978م، وظلت منذ ذلك الحين تُسهم في إعداد كوادر مؤهلة تعمل اليوم في مؤسسات مرموقة داخل السودان وخارجه.</p>
+        <p><a href="about.html" class="card-link">اقرأ المزيد عن الكلية ←</a></p>
+      </section>
 
-    <section id="news">
-      <h2>آخر الأخبار</h2>
+     <section class="section" id="news">
+  <h2 class="section-title">آخر الأخبار</h2>
+ 
+  <div class="news-card">
+    <h3>مجلس الكلية يجيز الخطة الاستراتيجية ويقر برنامج بكالوريوس الذكاء الاصطناعي</h3>
+    <p>أجاز مجلس كلية العلوم الرياضية والحاسوب بجامعة الجزيرة الخطة الاستراتيجية للكلية للفترة 2026–2030م، ومقترح برنامج بكالوريوس الذكاء الاصطناعي، إلى جانب مقترح إنشاء قسم للذكاء الاصطناعي وعلم البيانات.</p>
+  </div>
 
-      <article>
-        <h3>مجلس الكلية يجيز الخطة الاستراتيجية ويقر برنامج بكالوريوس الذكاء الاصطناعي</h3>
-        <p>
-          أجاز مجلس كلية العلوم الرياضية والحاسوب بجامعة الجزيرة الخطة الاستراتيجية
-          للكلية للفترة 2026–2030م، ومقترح برنامج بكالوريوس الذكاء الاصطناعي،
-          إلى جانب مقترح إنشاء قسم للذكاء الاصطناعي وعلم البيانات، وذلك خلال
-          اجتماعه الدوري رقم (11) للعام 2026م، المنعقد بمباني الكلية بالمدينة
-          الجامعية بمجمع الرازي.
-        </p>
-        <p>
-          استعرض الدكتور قيس الهادي، عميد الكلية، الخطة الاستراتيجية موضحاً أنها
-          تركز على تحقيق التوازن في تخطيط المشروعات وتحديد الأولويات، وتعزيز
-          الشراكات المجتمعية وتفعيل دور المؤسسات ذات الصلة، وترسيخ القيم الأخلاقية
-          والوطنية، ودعم التنمية المستدامة وتمكين الشباب.
-        </p>
-        <p>
-          كما قدّم عميد الكلية تقريراً حول الأداء خلال الفترة السابقة، تناول جهود
-          إعادة تأهيل المرافق والمنشآت، وصيانة المعدات والتجهيزات، وتحسين البيئة
-          التعليمية، إلى جانب التوسع في استخدام الطاقة الشمسية لدعم استقرار
-          الإمداد الكهربائي واستدامة الخدمات.
-        </p>
-        <p>
-          ويعكس توجه الكلية نحو تطوير برامج الذكاء الاصطناعي وعلم البيانات حرصها
-          على مواكبة التحولات الرقمية، وتوسيع فرص التأهيل والتخصص في مجالات
-          الحوسبة الحديثة، بما يعزز إسهام جامعة الجزيرة في الابتكار والتنمية
-          وخدمة المجتمع.
-        </p>
-      </article>
-    </section>
+  <div class="news-card">
+    <h3>الكلية تستعيد نشاطها الأكاديمي وعودة الطلاب إلى مقاعد الدراسة</h3>
+    <p>أشاد مدير الجامعة بالجهود التي بذلتها الكلية في تجاوز آثار الحرب واستعادة نشاطها وعودة الطلاب إلى مقاعد الدراسة، بما يعكس قدرتها على استئناف رسالتها الأكاديمية ومواجهة التحديات، مع التأكيد على أهمية المحافظة على استقرار العملية الأكاديمية.</p>
+  </div>
 
-    <section id="majors">
-      <h2>التخصصات</h2>
+  <div class="news-card">
+    <h3>جهود إعادة تأهيل المرافق والتوسع في استخدام الطاقة الشمسية</h3>
+    <p>تناول تقرير الأداء جهود إعادة تأهيل المرافق والمنشآت، وصيانة المعدات والتجهيزات، وتحسين البيئة التعليمية، إلى جانب التوسع في استخدام الطاقة الشمسية لدعم استقرار الإمداد الكهربائي واستدامة الخدمات، بما يسهم في تهيئة بيئة أكاديمية أكثر ملاءمة.</p>
+  </div>
 
-      <article>
-        <h3>علوم الحاسوب والرياضيات</h3>
-        <p>تخصص يجمع بين المهارات الرياضية والحوسبية، ويتيح للخريجين العمل في تحليل البيانات وعلوم البيانات والذكاء الاصطناعي وتطوير البرمجيات والنمذجة والمحاكاة الرياضية.</p>
-        <a href="majors/cs-math.html">التفاصيل</a>
-      </article>
+</section>
+      <section class="section" id="majors">
+        <h2 class="section-title">التخصصات</h2>
+        <div class="card-grid">
+          <article class="card card--math">
+            <h3 class="card-title">علوم الحاسوب والرياضيات</h3>
+            <p class="card-text">يجمع بين المهارات الرياضية والحوسبية، ويتيح العمل في تحليل البيانات وعلوم البيانات والذكاء الاصطناعي والنمذجة والمحاكاة الرياضية.</p>
+            <a href="majors/cs-math.html" class="card-link">التفاصيل ←</a>
+          </article>
+          <article class="card card--stat">
+            <h3 class="card-title">علوم الحاسوب والإحصاء</h3>
+            <p class="card-text">يوفر أساساً في الإحصاء والحوسبة وتحليل البيانات، ويفتح مجالات للعمل في علوم البيانات والتحليلات الذكية والتنبؤ وتحليل المخاطر.</p>
+            <a href="majors/cs-stat.html" class="card-link">التفاصيل ←</a>
+          </article>
+          <article class="card card--cs">
+            <h3 class="card-title">علوم الحاسوب</h3>
+            <p class="card-text">برنامج بكالوريوس الشرف، يؤهل الخريجين للعمل في تطوير البرمجيات وهندستها وتصميم النظم وقواعد البيانات والشبكات وأمن المعلومات.</p>
+            <a href="majors/cs.html" class="card-link">التفاصيل ←</a>
+          </article>
+          <article class="card card--it">
+            <h3 class="card-title">تقنية المعلومات</h3>
+            <p class="card-text">برنامج الدبلوم التقني الذي يركز على الجوانب التطبيقية، ويؤهل للعمل في الدعم الفني وصيانة الحاسوب وتشغيل الشبكات وإدارة الأنظمة.</p>
+            <a href="majors/it.html" class="card-link">التفاصيل ←</a>
+          </article>
+        </div>
+      </section>
 
-      <article>
-        <h3>علوم الحاسوب والإحصاء</h3>
-        <p>يوفر أساساً في الإحصاء والحوسبة وتحليل البيانات، ويفتح مجالات للعمل في علوم البيانات والتحليلات الذكية والتنبؤ وتحليل المخاطر والإحصاء الحيوي.</p>
-        <a href="majors/cs-stat.html">التفاصيل</a>
-      </article>
+      <section class="section">
+        <h2 class="section-title">لماذا تختار الكلية؟</h2>
+        <p>لأنها تمنحك الأدوات التي تمكّنك من بناء مستقبل مهني متميز في مجالات:</p>
+       <ul class="features-list">
+         <li>تطوير البرمجيات وهندسة النظم.</li>
+         <li>تحليل البيانات وصناعة القرار.</li>
+         <li>الذكاء الاصطناعي والتقنيات الحديثة.</li>
+         <li>الأمن السيبراني وحماية المعلومات.</li>
+         </ul>
+        <p>إذا كنت تبحث عن تخصص يجمع بين الإبداع والتكنولوجيا، فإن الكلية هي بوابتك نحو مهن المستقبل.</p>
+      </section>
 
-      <article>
-        <h3>علوم الحاسوب</h3>
-        <p>برنامج بكالوريوس الشرف في علوم الحاسوب، يؤهل الخريجين للعمل في تطوير البرمجيات والتطبيقات وهندسة البرمجيات وتحليل وتصميم النظم وقواعد البيانات والشبكات وأمن المعلومات.</p>
-        <a href="majors/cs.html">التفاصيل</a>
-      </article>
-
-      <article>
-        <h3>تقنية المعلومات</h3>
-        <p>برنامج الدبلوم التقني الذي يركز على الجوانب التطبيقية والتقنية، ويؤهل الخريجين للعمل في الدعم الفني وصيانة الحاسوب وتشغيل الشبكات وإدارة أنظمة التشغيل.</p>
-        <a href="majors/it.html">التفاصيل</a>
-      </article>
-    </section>
-
-    <section>
-      <h2>ابدأ الآن</h2>
-      <ul>
-        <li><a href="contact.html">تواصل معنا</a></li>
-        <li><a href="account/register.html">أنشئ حساباً</a></li>
-      </ul>
-    </section>
-
+    </div>
   </main>
 
-  <footer>
-    <section>
-      <h3>معلومات التواصل</h3>
-      <address>
-        <p>العنوان: [عنوان الكلية]</p>
-        <p>الهاتف: [رقم الهاتف]</p>
-        <p>البريد: [البريد الإلكتروني]</p>
-      </address>
-    </section>
-
-    <section>
-      <h3>روابط سريعة</h3>
-      <ul>
-        <li><a href="index.html">الرئيسية</a></li>
-        <li><a href="about.html">عن الكلية</a></li>
-        <li><a href="index.html#majors">التخصصات</a></li>
-        <li><a href="contact.html">التواصل</a></li>
-        <li><a href="terms.html">الشروط والأحكام</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>تابعنا</h3>
-      <ul>
-        <li><a href="#">فيسبوك</a></li>
-        <li><a href="#">تويتر</a></li>
-        <li><a href="#">البريد</a></li>
-      </ul>
-    </section>
-
-    <hr>
-    <p>جميع الحقوق محفوظة &copy; 2026 لكلية العلوم الرياضية والحاسوب — جامعة الجزيرة.</p>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>معلومات التواصل</h3>
+          <address class="address">
+            <p>📍 جامعة الجزيرة — مجمع الرازي، ود مدني، السودان</p>
+            <p>✉️ fmcs@uofg.edu.sd</p>
+          </address>
+        </div>
+        <div class="footer-column">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">عن الكلية</a></li>
+            <li><a href="index.html#majors">التخصصات</a></li>
+            <li><a href="contact.html">التواصل</a></li>
+            <li><a href="terms.html">الشروط والأحكام</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>تابعنا</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/FMCS.UOFG" target="_blank">فيسبوك</a></li>
+            <li><a href="[ضع رابط الواتساب هنا لاحقاً]" target="_blank">واتساب</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 كلية العلوم الرياضية والحاسوب — جامعة الجزيرة</p>
+      </div>
+    </div>
   </footer>
 
 </body>
